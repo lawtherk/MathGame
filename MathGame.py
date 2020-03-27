@@ -5,7 +5,7 @@ from tkinter import *
 
 
 
-
+#this is a comment
 MainWindow = Tk()
 MainWindow.title("Main Window")
 MainWindow.minsize(500,200)
