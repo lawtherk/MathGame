@@ -6,6 +6,7 @@ from tkinter import *
 
 
 #this is a comment
+#this is another comment
 MainWindow = Tk()
 MainWindow.title("Main Window")
 MainWindow.minsize(500,200)
