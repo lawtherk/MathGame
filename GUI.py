@@ -42,10 +42,6 @@ class StartGUI():
 
 
 
-        def OtherClick():
-            Math.Difficulty= StartWindow.Difficulty.get()
-            print(Math.Difficulty)
-
         # create the label objects
         NameLabel = Label(StartWindow, text="Name", anchor=W, width=10)
         AgeLabel = Label(StartWindow, text="Age", anchor=W, width=10)
@@ -64,14 +60,12 @@ class StartGUI():
 
         # create the button objects
         SubmitButton = Button(StartWindow, text="submit", command=SubmitClick)
-        OtherButton = Button(StartWindow, text="other", command=OtherClick)
 
 
         # place the objects in the window grid
         NameLabel.grid(row=0, column=0)
         NameEntry.grid(row=0, column=1)
         SubmitButton.grid(row=0, column=2, padx=10, pady=5)
-        OtherButton.grid(row=1, column=2, padx=10, pady=5)
         AgeLabel.grid(row=1, column=0)
         AgeEntry.grid(row=1, column=1)
         DifficultyLabel.grid(row=2, column=0)
