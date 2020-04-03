@@ -16,7 +16,7 @@ class StartGUI():
         StartWindow.title("Start New Game")
         #StartWindow.minsize(250,100)
 
-
+#test
         StartWindow.Name = StringVar()
         StartWindow.Age = StringVar()
         StartWindow.Difficulty = StringVar()
