@@ -1,8 +1,8 @@
 
-#this is a comment
-#this is another comment
 
 from tkinter import *
+
+
 
 
 class StartGUI():
