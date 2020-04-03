@@ -31,14 +31,15 @@ class StartGUI():
 
         # define what happens when you click submit
         def SubmitClick():
-            Player.Name = NameEntry.get()
-            Player.Age = AgeEntry.get()
-            if Player.Name == "" or Player.Age == "":
+            if NameEntry.get() == "" or AgeEntry.get() =="":
                 StartWindow.MyLabel.set("enter values for name and age")
             else:
                 Player.Start = TRUE
+                Player.Name = NameEntry.get()
+                Player.Age = AgeEntry.get()
                 Math.Difficulty= StartWindow.Difficulty.get()
                 StartWindow1.destroy()
+
 
 
         def OtherClick():
