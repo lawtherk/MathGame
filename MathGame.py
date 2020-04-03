@@ -6,10 +6,8 @@ from tkinter import *
 
 
 #this is a comment
-#this is another comment
 
 
-#This is a better comment and an example of how to do a pull request.
 MainWindow = Tk()
 MainWindow.title("Main Window")
 MainWindow.minsize(500,200)
